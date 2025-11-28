@@ -284,14 +284,41 @@ package estudiando;
 //    }
 //}
 
+//Sentendia Switch 🔥
+//El switch es como un menú automático:
+//
+//        👉 Si la variable vale X, ejecuta la acción X.
+//        👉 Si no coincide ninguna opción, ejecuta default
+//
+//El break sirve para detener algo que se está ejecutando.
+//El break detiene la ejecución de un switch o un ciclo (for, while, do-while)
 
-//public class Clasedejava {
-//    public static void main(String[] args) {
-//
-//
-//
-//    }
-//}
+public class Clasedejava {
+    public static void main(String[] args) {
+             char vocal = 'U';
+
+             switch(vocal){
+                 case 'A':
+                     System.out.println("Vocal A");
+                     break;
+                     case 'E':
+                         System.out.println("Vocal E");
+                         break;
+                         case 'I':
+                             System.out.println("Vocal I");
+                             break;
+                             case 'O':
+                                 System.out.println("Vocal O");
+                                 break;
+                                 case 'U':
+                                     System.out.println("Vocal U");
+                                     break;
+                                     default:
+                                         System.out.println("no reconoce la vocal");
+                                         break;
+             }
+    }
+}
 
 
 
