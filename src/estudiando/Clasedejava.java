@@ -36,7 +36,7 @@ package estudiando;
 //}
 
 
-//DATOS
+//DATOS🔥
 //public class Clasedejava {
 ////    public static void main(String[] args) {
 ////byte edad = 20;
@@ -77,7 +77,7 @@ package estudiando;
 //}
 
 
-//Operadores Aritmeticos
+//Operadores Aritmeticos🔥
 //public class Clasedejava {
 //    public static void main(String[] args) {
 //        int num1 = 7;
@@ -93,7 +93,7 @@ package estudiando;
 
 
 
-////Operadores de Asignacion
+////Operadores de Asignacion🔥
 //public class Clasedejava {
 //    public static void main(String[] args) {
 //
@@ -112,7 +112,7 @@ package estudiando;
 //
 //Segundo Ejemplo
 //
-//Variables de tipo entero
+//Variables de tipo entero👌
 //public class Clasedejava {
 //        public static void main(String[] args) {
 //        int a = 5, b = 10 , c = 3, d = 8;
@@ -129,8 +129,8 @@ package estudiando;
 //    }
 //}
 //
-//        //Operaciones de asignacion compuestas
-//        // Forma simplificada
+//        //Operaciones de asignacion compuestas🔥
+//        // Forma simplificada👌
 //public class Clasedejava {
 //    public static void main(String[] args) {
 //        int a = 5, b = 10 , c = 3, d = 8;
@@ -147,7 +147,7 @@ package estudiando;
 //    }
 //}
 
-////Operadores Relacionales
+////Operadores Relacionales🔥
 //public class Clasedejava {
 //    public static void main(String[] args) {
 //
@@ -165,7 +165,7 @@ package estudiando;
 //}
 
 
-//Operadores Logicos-Condicional
+//Operadores Logicos-Condicional🔥
 
 //public class Clasedejava {
 //    public static void main(String[] args) {
@@ -190,6 +190,109 @@ package estudiando;
 //
 //    }
 //}
+
+//Condicionales if y else🔥
+
+    //if = Evalua la condicion👌
+    //else = Especifica que hacer si no se cumple la condicion👌
+
+    //👉IF (si...)
+    //
+    //Es como hacer una pregunta
+    //Si la respuesta es verdadero, entonces haces algo
+    //
+    //👉 ELSE (si no...)
+    //
+    //Si la respuesta es falso, haces otra cosa👌
+    //Es opcional: puedes usarlo o no👌
+//public class Clasedejava {
+//    public static void main(String[] args) {
+//
+//        String nombre = "Juan ";
+//        int edad = 20;
+//
+//        if (edad >= 18) {
+//                System.out.println(nombre + " es mayor de edad");
+//        }else{
+//                System.out.println(nombre + " es menor de edad");
+//        }
+//    }
+//}
+
+//Con los condicionales se pueden plantear distintas soluciones a problemas🔥
+//public class Clasedejava {
+//    public static void main(String[] args) {
+//
+//        int nivel = 11;
+//        int monedas = 600;
+//
+//        if (nivel >= 10 && monedas > 500) {
+//            System.out.println("Puedes entrar a la sala especial");
+//        } else {
+//            System.out.println("No puedes entrar, sigue mejorando");
+//        }
+//
+//    }
+//}
+
+
+
+    // else if  = else-if sirve para que un programa tome decisiones dependiendo de una condición🔥
+//public class Clasedejava {
+//    public static void main(String[] args) {
+//
+//        int numero = -5;
+//
+//        if (numero > 0 ) {
+//            System.out.println("El numero es positivo");
+//        }else if (numero < 0){
+//            System.out.println("El numero es negativo");
+//        }
+//    }
+//}
+
+//Horas del dia // Hora militar👌
+//public class Clasedejava {
+//    public static void main(String[] args) {
+//
+//        int hora = 5;
+//
+//        if(hora >= 1 && hora <= 12){
+//            System.out.println("Buenos dias");
+//        }else if (hora >= 12 && hora < 18){
+//            System.out.println("Buenas tardes");
+//        }else if (hora >= 18 && hora < 24){
+//            System.out.println("Buenas noches");
+//        }else{
+//            System.out.println("hora no existe");
+//        }
+//    }
+//}
+//Numeros positivos y negativos con condicionales 👌
+//public class Clasedejava {
+//    public static void main(String[] args) {
+//
+//        int numero = 6;
+//
+//        if (numero > 0) {
+//            System.out.println("es numero es positivo");
+//        }else if (numero < 0) {
+//            System.out.println("el numero es negativo");
+//        }else  {
+//            System.out.println("el numero es 0");
+//        }
+//    }
+//}
+
+
+//public class Clasedejava {
+//    public static void main(String[] args) {
+//
+//
+//
+//    }
+//}
+
 
 
 
