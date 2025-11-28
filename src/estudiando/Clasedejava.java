@@ -293,32 +293,142 @@ package estudiando;
 //El break sirve para detener algo que se está ejecutando.
 //El break detiene la ejecución de un switch o un ciclo (for, while, do-while)
 
-public class Clasedejava {
-    public static void main(String[] args) {
-             char vocal = 'U';
+//public class Clasedejava {
+//    public static void main(String[] args) {
+//             char vocal = 'U';
+//
+//             switch(vocal){
+//                 case 'A':
+//                     System.out.println("Vocal A");
+//                     break;
+//                     case 'E':
+//                         System.out.println("Vocal E");
+//                         break;
+//                         case 'I':
+//                             System.out.println("Vocal I");
+//                             break;
+//                             case 'O':
+//                                 System.out.println("Vocal O");
+//                                 break;
+//                                 case 'U':
+//                                     System.out.println("Vocal U");
+//                                     break;
+//                                     default:
+//                                         System.out.println("no reconoce la vocal");
 
-             switch(vocal){
-                 case 'A':
-                     System.out.println("Vocal A");
-                     break;
-                     case 'E':
-                         System.out.println("Vocal E");
-                         break;
-                         case 'I':
-                             System.out.println("Vocal I");
-                             break;
-                             case 'O':
-                                 System.out.println("Vocal O");
-                                 break;
-                                 case 'U':
-                                     System.out.println("Vocal U");
-                                     break;
-                                     default:
-                                         System.out.println("no reconoce la vocal");
-                                         break;
-             }
-    }
-}
+//                                         break;
+//             }
+//    }
+//}
+
+// En un switch un else se llama default👌
+    //CODIGO SWITCH RESUMIDO👌
+//public class Clasedejava {
+//    public static void main(String[] args) {
+//
+//        int mes = 9;
+//        String nombre_mes = "";
+//
+//        switch (mes) {
+//            case 1 -> nombre_mes = "Enero";
+//            case 2 -> nombre_mes = "Febrero";
+//            case 3 -> nombre_mes = "Marzo";
+//            case 4 -> nombre_mes = "Abril";
+//            case 5 -> nombre_mes = "Mayo";
+//            default -> nombre_mes = "Mes invalido";
+//        };
+//
+//        System.out.println("Mes: " + nombre_mes);
+//    }
+//}
+
+
+//CICLO FOR 🔥
+//El ciclo for sirve para repetir un bloque de código un número de veces definido👌
+//El for es un ciclo que repite código un número exacto de veces, usando un contador que va cambiando automáticamente
+//public class Clasedejava {
+//    public static void main(String[] args) {
+//
+//        for (int i = 1; i <= 10; i++) {
+//            System.out.println("imprimir numeros: " + i);
+//        }
+//    }
+//}
+
+
+//Tabla del 2 con el ciclo for👌
+//public class Clasedejava {
+//    public static void main(String[] args) {
+//
+//        for (int i = 1; i <= 9; i++) {
+//            System.out.println("Numero: " + i * 2);
+//        }
+//    }
+//}
+
+//CICLO WHILE Y DO WHILE🔥
+    //WHILE → “Mientras esto pase, sigue👌 - Revisa si la condicion se cumple - el proceso se repite hasta que la condicion sea falsa
+    //DDO WHILE → “Hazlo una vez y luego repite👌 - El ciclo se detiene cuando la condicion se vuelve falsa
+//public class Clasedejava {
+//    public static void main(String[] args) {
+//
+//        int  x = 0;
+//        int n = 4;
+//
+//        while(x<=n){
+//            System.out.println("El valor de x es: "+x);x++;    //x++ significa aumentar x en 1
+//
+//        }
+//
+//    }
+//}
+
+
+//public class Clasedejava {
+//    public static void main(String[] args) {
+//
+//        int i = 0;
+//        int n = 2;
+//
+//        do {
+//            System.out.println("El numero es:" +i);i++;    //i++ valor a incrementar
+//        }while(i<=n);
+//    }
+//}
+
+//WHILE👌
+//public class Clasedejava {
+//    public static void main(String[] args) {
+//
+//        int x = 1;
+//
+//        while(x <= 5){
+//            System.out.println("El valor de x es: "+x);
+//            x++;
+//        }
+//    }
+//}
+//DO WHILE👌
+//public class Clasedejava {
+//    public static void main(String[] args) {
+//
+//        int i = -13;
+//
+//        do {
+//            System.out.println("El numero es: " +i);i++;
+//        }while( i > 0 );
+////El ciclo de detiene ya que i no es mayor que 0
+//
+//    }
+//}
+
+
+
+
+
+
+
+
 
 
 
