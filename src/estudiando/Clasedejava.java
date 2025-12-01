@@ -888,7 +888,7 @@ import java.util.List;
 //Polimorfismo explicado: 👇
 //Sirve Para usar un mismo método con objetos diferentes👌
 //
-//Ejemplo real:
+//Ejemplo real:👌
 //
 //animal.hacerSonido();
 //
