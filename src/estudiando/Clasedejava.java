@@ -583,36 +583,319 @@ import java.util.List;
 //Abstraccion👌
 
 //Clases - objetos y metodo contructor🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-public class Clasedejava {
+//public class Clasedejava {
+//
+//    // Atributos de la clase
+//    String nombre;
+//    double estatura;
+//    int edad;
+//
+//    // Método constructor
+//    public Clasedejava(String nombre, double estatura, int edad) {
+//        this.nombre = nombre; //Atributo
+//        this.estatura = estatura; //Atributo
+//        this.edad = edad; //Atributo
+//    }
+//
+//    public static void main(String[] args) {                   //Aquí inicia el método main, que es el punto de entrada del programa👌
+//                                                               //Todo lo que pongas aquí se ejecuta cuando corres el programa👌
+//
+//        // Crear un objeto usando el constructor - Llamado Persona👌
+//        Clasedejava persona = new Clasedejava("Juan", 1.75, 20);
+//
+//        System.out.println("El nombres es: " + persona.nombre);
+//        System.out.println("La estatura es: " + persona.estatura);
+//        System.out.println("Su edad es: " + persona.edad);
+//    }
+//}
 
-    // Atributos de la clase
-    String nombre;
-    double estatura;
-    int edad;
+//Encapsulamiento🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+//El encapsulamiento consiste en ocultar los atributos y métodos privados para que solo puedan ser usados dentro de la misma clase👌
+// El encapsulamiento permite que la informacion se encuentre oculta y no se vulnerable
 
-    // Método constructor
-    public Clasedejava(String nombre, double estatura, int edad) {
-        this.nombre = nombre; //Atributo
-        this.estatura = estatura; //Atributo
-        this.edad = edad; //Atributo
-    }
+//public class Clasedejava {
+//
+//    // Atributos privados
+//    private String nombres;
+//    private int edad;
+//    private String raza;
+//
+//    // Getter y Setter
+//    public String getNombres() {
+//        return nombres;
+//    }
+//
+//    public void setNombres(String nombres) {
+//        this.nombres = nombres;
+//    }
+//
+//    public int getEdad() {
+//        return edad;
+//    }
+//
+//    public void setEdad(int edad) {
+//        this.edad = edad;
+//    }
+//
+//    public String getRaza() {
+//        return raza;
+//    }
+//
+//    public void setRaza(String raza) {
+//        this.raza = raza;
+//    }
+//
+//    // Método main
+//    public static void main(String[] args) {
+//
+//        Clasedejava objeto = new Clasedejava();
+//
+//        objeto.setNombres("Brus");
+//        objeto.setEdad(5);
+//        objeto.setRaza("Criollo");
+//
+//        System.out.println("el nombres del perro es : " + objeto.getNombres());
+//        System.out.println("La edad es : " + objeto.getEdad());
+//        System.out.println("Su raza es : " + objeto.getRaza());
+//    }
+//}
 
-    public static void main(String[] args) {                   //Aquí inicia el método main, que es el punto de entrada del programa👌
-                                                               //Todo lo que pongas aquí se ejecuta cuando corres el programa👌
+//Metodos🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+//Son un conjunto de instrucciones definidas dentro de una clase - estos realizan tareas y para usarlos debemos invocarlos👌
 
-        // Crear un objeto usando el constructor - Llamado Persona👌
-        Clasedejava persona = new Clasedejava("Juan", 1.75, 20);
+//Estructura:
+// Public-void-metodo     - Public = Modificador de acceso
+//                       - void = Valor de retorno
+//                     - metodo = Nombre del metodo
+//Los métodos son:
+//
+//👉 "Acciones" de una clase
+//👉 "Funciones" que hacen tareas
+//👉 "Bloques de código" reutilizables
+//👉 Se usan para evitar repetir instrucciones
+//public class Clasedejava {
+//
+//    // Atributos
+//    int numero1 = 2;
+//    int numero2 = 3;
+//
+//
+//    public void bienvenida(){
+//        System.out.println("Bienvenido");
+//    }
+//
+//    public int sumar(){
+//        return numero1 + numero2;
+//
+//    }
+//
+//    public int restar(){
+//        return numero1 - numero2;
+//    }
+//
+//    public void resultado(){
+//        System.out.println("Resultado de la suma es: " + sumar());
+//        System.out.println("Resultado de la resta es: " + restar());
+//    }
+//    public static void main(String[] args) {
+//        Clasedejava op = new Clasedejava();
+//        op.bienvenida();
+//        op.sumar();
+//        op.restar();
+//        op.resultado();
+//
+//    }
+//}
 
-        System.out.println("El nombres es: " + persona.nombre);
-        System.out.println("La estatura es: " + persona.estatura);
-        System.out.println("Su edad es: " + persona.edad);
-    }
-}
+//Manejo de Excepciones🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+//En java una excepcion es un evento que interrumpe el desarrollo de un programa👌
+// Manejo de excepciones:
+// ClassNotFoundException = Se lanza cuando el programa intenta cargar una clase que no existe o no se encuentra.👌
+//IOException = Se lanza cuando ocurre un error de entrada/salida, como al leer o escribir archivos👌
+//SQLException = Se lanza cuando ocurre un error al ejecutar operaciones con bases de datos (consultas, conexiones, etc.).👌
+
+//        🟦 try
+//
+//Es como intentar hacer algo
+//
+//        🟧 catch
+//
+//Es lo que pasa si el intento falló
+//
+//        🟩 finally
+//
+//Este bloque se ejecuta siempre, pase lo que pase
+//Haya error o no haya error, siempre corre
+
+//Situación	¿Necesita excepciones?
+//Código simple sin riesgos	❌ No
+//Manejar errores externos	✔️ Sí
+//Java te obliga (checked)	✔️ Obligatorio
+//Para evitar que el programa se cierre	✔️ Muy recomendable
+
+//Ejemplo👌
+
+//try {
+//        System.out.println(10 / 0); // Esto va a fallar
+//}
+//        catch (Exception e) {
+//        System.out.println("Ocurrió un error");
+//}
+//        finally {
+//        System.out.println("Esto siempre se ejecuta");
+//}
+
+//public class Clasedejava {
+//    public static void main(String[] args) {
+//
+//        try{
+//            System.out.println("Intentando ejecutar el bloque");
+//            //Error forzado en tiempo de ejecucion
+//            int n = Integer.parseInt("N");
+//
+//            System.out.println("Despues del error ");
+//
+//        }catch(Exception e){
+//            System.out.println("El error es:" + e);
+//        }finally {
+//            System.out.println("Instrucciones finalizadas");
+//        }
+//
+//    }
+//}
+
+//Herencia y Polimorfismo🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+
+//public class Clasedejava {
+//
+//    // =============================
+//    //     Clase Persona
+//    // =============================
+//    static class Persona {
+//        private String nombre;
+//        private int edad;
+//        private String apellido;
+//        private char sexo;
+//
+//        public Persona() {}
+//
+//        public Persona(String nombre, int edad, String apellido, char sexo) {
+//            this.nombre = nombre;
+//            this.edad = edad;
+//            this.apellido = apellido;
+//            this.sexo = sexo;
+//        }
+//
+//        // Getters y setters
+//        public String getNombre() { return nombre; }
+//        public void setNombre(String nombre) { this.nombre = nombre; }
+//
+//        public int getEdad() { return edad; }
+//        public void setEdad(int edad) { this.edad = edad; }
+//
+//        public String getApellido() { return apellido; }
+//        public void setApellido(String apellido) { this.apellido = apellido; }
+//
+//        public char getSexo() { return sexo; }
+//        public void setSexo(char sexo) { this.sexo = sexo; }
+//    }
+//
+//    // =============================
+//    //     Clase Empleado
+//    // =============================
+//    static class Empleado extends Persona {
+//        private int numeroEmpleado;
+//        private String departamento;
+//        private String puesto;
+//
+//        public Empleado() {}
+//
+//        public Empleado(String nombre, int edad, String apellido, char sexo,
+//                        String departamento, int numeroEmpleado, String puesto) {
+//
+//            super(nombre, edad, apellido, sexo);
+//            this.departamento = departamento;
+//            this.numeroEmpleado = numeroEmpleado;
+//            this.puesto = puesto;
+//        }
+//
+//        // Getters y setters
+//        public int getNumeroEmpleado() { return numeroEmpleado; }
+//        public void setNumeroEmpleado(int numeroEmpleado) { this.numeroEmpleado = numeroEmpleado; }
+//
+//        public String getDepartamento() { return departamento; }
+//        public void setDepartamento(String departamento) { this.departamento = departamento; }
+//
+//        public String getPuesto() { return puesto; }
+//        public void setPuesto(String puesto) { this.puesto = puesto; }
+//    }
+//
+//    // =============================
+//    //           MAIN
+//    // =============================
+//    public static void main(String[] args) {
+//
+//        Empleado empleado = new Empleado();
+//
+//        empleado.setNombre("Juan");
+//        empleado.setEdad(20);
+//        empleado.setApellido("Ramirez");
+//        empleado.setSexo('M');
+//        empleado.setDepartamento("Norte de Santander");
+//        empleado.setNumeroEmpleado(31122578);
+//        empleado.setPuesto("Ing");
+//
+//        System.out.println("Nombres del empleado: " + empleado.getNombre());
+//        System.out.println("Edad del empleado: " + empleado.getEdad());
+//        System.out.println("Apellido del empleado: " + empleado.getApellido());
+//        System.out.println("Sexo del empleado: " + empleado.getSexo());
+//        System.out.println("Departamento del empleado: " + empleado.getDepartamento());
+//        System.out.println("Número del empleado: " + empleado.getNumeroEmpleado());
+//        System.out.println("Puesto del empleado: " + empleado.getPuesto());
+//    }
+//}
+
+//Codigo Resumido👌
+//Para eso…
+//NO necesitas tres clases.👌
+//No necesitas herencia.👌
+//No necesitas getters y setters si no quieres.👌
+//public class Clasedejava {
+//    public static void main(String[] args) {
+//
+//        String nombre = "Juan";
+//        int edad = 20;
+//        String apellido = "Ramirez";
+//        char sexo = 'M';
+//        String departamento = "Norte de Santander";
+//        int numeroEmpleado = 31122578;
+//        String puesto = "Ingeniero";
+//
+//        System.out.println("Empleado:");
+//        System.out.println("Nombre: " + nombre);
+//        System.out.println("Edad: " + edad);
+//        System.out.println("Apellido: " + apellido);
+//        System.out.println("Sexo: " + sexo);
+//        System.out.println("Departamento: " + departamento);
+//        System.out.println("Número: " + numeroEmpleado);
+//        System.out.println("Puesto: " + puesto);
+//    }
+//}
 
 
-
-
-
-
-
+//Herencia	Reutilizar código	“A es un B.” Ej: Empleado es una Persona 🔥
+//Polimorfismo	Cambiar comportamiento	“Un mismo método actúa distinto según el objeto.” 🔥    - @Override = Polimorfismo por sobrescritura
+//Polimorfismo explicado: 👇
+//Sirve Para usar un mismo método con objetos diferentes👌
+//
+//Ejemplo real:
+//
+//animal.hacerSonido();
+//
+//
+//Si el objeto es un Perro, hace "Guau".
+//Si es un Gato, hace "Miau".
+//Si es una Vaca, hace "Muuu".
+//
+//El método es el mismo → el comportamiento cambia - eso es lo que hace el polimorfismo
 
