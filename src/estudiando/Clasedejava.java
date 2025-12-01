@@ -36,7 +36,7 @@ package estudiando;
 //}
 
 
-//DATOS🔥
+//DATOS🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
 //public class Clasedejava {
 ////    public static void main(String[] args) {
 ////byte edad = 20;
@@ -77,7 +77,7 @@ package estudiando;
 //}
 
 
-//Operadores Aritmeticos🔥
+//Operadores Aritmeticos🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
 //public class Clasedejava {
 //    public static void main(String[] args) {
 //        int num1 = 7;
@@ -93,7 +93,7 @@ package estudiando;
 
 
 
-////Operadores de Asignacion🔥
+////Operadores de Asignacion🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
 //public class Clasedejava {
 //    public static void main(String[] args) {
 //
@@ -129,8 +129,8 @@ package estudiando;
 //    }
 //}
 //
-//        //Operaciones de asignacion compuestas🔥
-//        // Forma simplificada👌
+////Operaciones de asignacion compuestas🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+//// Forma simplificada👌
 //public class Clasedejava {
 //    public static void main(String[] args) {
 //        int a = 5, b = 10 , c = 3, d = 8;
@@ -147,7 +147,7 @@ package estudiando;
 //    }
 //}
 
-////Operadores Relacionales🔥
+////Operadores Relacionales🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
 //public class Clasedejava {
 //    public static void main(String[] args) {
 //
@@ -165,7 +165,7 @@ package estudiando;
 //}
 
 
-//Operadores Logicos-Condicional🔥
+//Operadores Logicos-Condicional🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
 
 //public class Clasedejava {
 //    public static void main(String[] args) {
@@ -191,7 +191,7 @@ package estudiando;
 //    }
 //}
 
-//Condicionales if y else🔥
+//Condicionales if y else🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
 
     //if = Evalua la condicion👌
     //else = Especifica que hacer si no se cumple la condicion👌
@@ -219,7 +219,7 @@ package estudiando;
 //    }
 //}
 
-//Con los condicionales se pueden plantear distintas soluciones a problemas🔥
+//Con los condicionales se pueden plantear distintas soluciones a problemas🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
 //public class Clasedejava {
 //    public static void main(String[] args) {
 //
@@ -237,7 +237,7 @@ package estudiando;
 
 
 
-    // else if  = else-if sirve para que un programa tome decisiones dependiendo de una condición🔥
+// else if  = else-if sirve para que un programa tome decisiones dependiendo de una condición🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
 //public class Clasedejava {
 //    public static void main(String[] args) {
 //
@@ -284,7 +284,7 @@ package estudiando;
 //    }
 //}
 
-//Sentendia Switch 🔥
+//Sentendia Switch 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
 //El switch es como un menú automático:
 //
 //        👉 Si la variable vale X, ejecuta la acción X.
@@ -343,7 +343,7 @@ package estudiando;
 //}
 
 
-//CICLO FOR 🔥
+//CICLO FOR 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
 //El ciclo for sirve para repetir un bloque de código un número de veces definido👌
 //El for es un ciclo que repite código un número exacto de veces, usando un contador que va cambiando automáticamente
 //public class Clasedejava {
@@ -366,7 +366,7 @@ package estudiando;
 //    }
 //}
 
-//CICLO WHILE Y DO WHILE🔥
+//CICLO WHILE Y DO WHILE🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
     //WHILE → “Mientras esto pase, sigue👌 - Revisa si la condicion se cumple - el proceso se repite hasta que la condicion sea falsa
     //DO WHILE → “Hazlo una vez y luego repite👌 - El ciclo se detiene cuando la condicion se vuelve falsa
 //public class Clasedejava {
@@ -418,6 +418,8 @@ package estudiando;
 //            System.out.println("El numero es: " +i);i++;
 //        }while( i > 0 );
 
+import javax.swing.text.View;
+import javax.swing.text.html.HTML;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -427,7 +429,7 @@ import java.util.List;
 //}
 
 
-//Arreglos - arrays🔥
+//Arreglos - arrays🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
     // Un arreglo puede almacenar multiples variables👌
 //Un arreglo es una estructura de datos que permite guardar varios valores del mismo tipo dentro de una sola variable.👌
 //Piensa en un arreglo como una fila de casilleros, donde cada casillero guarda un valor y tiene un número (posición) para identificarlo👌
@@ -536,25 +538,41 @@ import java.util.List;
 //
 //    }
 //}
+//Ejemplo👌
+//public class Clasedejava {
+//    public static void main(String[] args) {
+//
+//        List<String> lenguajesProgramacion = new ArrayList<>();
+//
+//        lenguajesProgramacion.add("Python");
+//        lenguajesProgramacion.add("Java");
+//        lenguajesProgramacion.add("C#");
+//        lenguajesProgramacion.add("C++");
+//
+//        System.out.println("Arreglo 1" + lenguajesProgramacion);
+//
+//        lenguajesProgramacion.remove("Python");
+//
+//        System.out.println("Lista sin el indice 0: " + lenguajesProgramacion);
+//    }
+//}
 
-public class Clasedejava {
-    public static void main(String[] args) {
+//Patrones de arquitectura🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+    //Ofrecen soluciones a problemas comunes en la programacion del software👌
+    //Guian a los desarrolladores sobre como diseñar los componentes👌
+    //Patron MVC = Modelo Vista Controlador👌 - MVC es una forma de organizar funciones del codigo
 
-        List<String> lenguajesProgramacion = new ArrayList<>();
-
-        lenguajesProgramacion.add("Python");
-        lenguajesProgramacion.add("Java");
-        lenguajesProgramacion.add("C#");
-        lenguajesProgramacion.add("C++");
-
-        System.out.println("Arreglo 1" + lenguajesProgramacion);
-
-        lenguajesProgramacion.remove("Python");
-
-        System.out.println("Lista sin el indice 0: " + lenguajesProgramacion);
-    }
-}
-
+//MVC no es código como tal, sino un patrón de arquitectura, o sea, una forma de organizar un proyecto.
+//
+//Sirve para dividir la aplicación en 3 partes:
+//
+//Model → datos y lógica
+//
+//View → interfaz (HTML, UI)
+//
+//Controller → recibe peticiones y conecta Model con View
+//
+//El equipo usa MVC como metodología para mantener orden y definir responsabilidades
 
 
 
