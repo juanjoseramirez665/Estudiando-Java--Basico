@@ -368,7 +368,7 @@ package estudiando;
 
 //CICLO WHILE Y DO WHILE🔥
     //WHILE → “Mientras esto pase, sigue👌 - Revisa si la condicion se cumple - el proceso se repite hasta que la condicion sea falsa
-    //DDO WHILE → “Hazlo una vez y luego repite👌 - El ciclo se detiene cuando la condicion se vuelve falsa
+    //DO WHILE → “Hazlo una vez y luego repite👌 - El ciclo se detiene cuando la condicion se vuelve falsa
 //public class Clasedejava {
 //    public static void main(String[] args) {
 //
@@ -383,7 +383,7 @@ package estudiando;
 //    }
 //}
 
-
+//Do While👌
 //public class Clasedejava {
 //    public static void main(String[] args) {
 //
@@ -417,13 +417,143 @@ package estudiando;
 //        do {
 //            System.out.println("El numero es: " +i);i++;
 //        }while( i > 0 );
+
+import java.util.ArrayList;
+import java.util.List;
+
 ////El ciclo de detiene ya que i no es mayor que 0
 //
 //    }
 //}
 
 
+//Arreglos - arrays🔥
+    // Un arreglo puede almacenar multiples variables👌
+//Un arreglo es una estructura de datos que permite guardar varios valores del mismo tipo dentro de una sola variable.👌
+//Piensa en un arreglo como una fila de casilleros, donde cada casillero guarda un valor y tiene un número (posición) para identificarlo👌
+//public class Clasedejava {
+//    public static void main(String[] args) {
+//
+//        int notas[] = new int [5];    //Arreglo-Arrays
+//
+//        notas[0] = 4;
+//        notas[1] = 5;
+//        notas[2] = 6;
+//        notas[3] = 7;
+//        notas[4] = 8;
+//
+//        System.out.println("La nota es :" + notas[0]);
+//
+//    }
+//}
 
+
+//Arreglos con ciclo for👌👌
+//public class Clasedejava {
+//    public static void main(String[] args) {
+//
+//        int notas[] = {5,6,7,8,9};
+//
+//        for (int i = 0; i < notas.length; i++) {      //length sirve para saber cuántos elementos tiene un arreglo
+//
+//            System.out.println("Notas: " + notas[i]);
+//
+//        }
+//    }
+//}
+
+//Arreglos Multidimensionales 👌
+//Matriz👌
+//public class Clasedejava {
+//    public static void main(String[] args) {
+//
+//        int [][] numeros = new int[3][3];{
+//            int i, j;                                    //Filas = i -  Columnas = j
+//
+//
+//            for( i = 0; i < numeros.length; i++ ) {
+//                System.out.println();
+//
+//                for ( j = 0; j < numeros.length; j++ ) {
+//
+//                    System.out.print( numeros[j][i] + " ");
+//                }
+//            }
+//
+//        }
+//
+//    }
+//}
+
+//Matriz👌
+//¿Para qué sirve una matriz?👌
+//
+//Para representar tablas👌
+//
+//Mapas o grids (como en videojuegos)👌
+//
+//Calificaciones, horarios, temperaturas, etc👌
+//
+//Almacenar datos organizados👌
+//public class Clasedejava {
+//    public static void main(String[] args) {
+//
+//        int[][] matriz = new int[2][2];     //fila = i  -  columna = j
+//        matriz[0][0] = 45;
+//        matriz[0][1] = 4;
+//        matriz[1][0] = 78;
+//        matriz[1][1] = 65;
+//
+//        for (int i = 0; i < matriz.length; i++) {
+//            for (int j = 0; j < matriz[i].length; j++) {
+//                System.out.print(matriz[i][j] + " ");
+//            }
+//            System.out.println();
+//        }
+//    }
+//}
+//Arreglos dinamicos👌
+    //Son aquellos arreglos que ofrecen flexibilidad mientras el programa se esta ejecutando👌
+    //Permiten:
+    // .add- Agregar elementos👌
+    // .remove - Eliminar un elemento👌
+    // .size - cambiar el tamaño de la matriz👌
+//public class Clasedejava {
+//    public static void main(String[] args) {
+//
+//        List<String> animales = new ArrayList<>();
+//
+//        animales.add("Conejo");
+//        animales.add("Gato");
+//        animales.add("Perro");
+//        animales.add("Loro");
+//
+//        System.out.println("Primer Array" + animales);
+//
+//        animales.add(3,"Elefante");  // Si pongo un numero en el index cambio la posicion del animal👌
+//
+//        System.out.println("Segundo Array" + animales);
+//
+//    }
+//}
+
+public class Clasedejava {
+    public static void main(String[] args) {
+
+        List<String> lenguajesProgramacion = new ArrayList<>();
+
+        lenguajesProgramacion.add("Python");
+        lenguajesProgramacion.add("Java");
+        lenguajesProgramacion.add("C#");
+        lenguajesProgramacion.add("C++");
+
+        System.out.println("Arreglo 1" + lenguajesProgramacion);
+
+        lenguajesProgramacion.remove("Python");
+
+        System.out.println("Lista sin el indice 0: " + lenguajesProgramacion);
+    }
+}
 
 
 
