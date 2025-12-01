@@ -556,11 +556,10 @@ import java.util.List;
 //        System.out.println("Lista sin el indice 0: " + lenguajesProgramacion);
 //    }
 //}
-
 //Patrones de arquitectura🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-    //Ofrecen soluciones a problemas comunes en la programacion del software👌
-    //Guian a los desarrolladores sobre como diseñar los componentes👌
-    //Patron MVC = Modelo Vista Controlador👌 - MVC es una forma de organizar funciones del codigo
+//Ofrecen soluciones a problemas comunes en la programacion del software👌
+//Guian a los desarrolladores sobre como diseñar los componentes👌
+//Patron MVC = Modelo Vista Controlador👌 - MVC es una forma de organizar funciones del codigo
 
 //MVC no es código como tal, sino un patrón de arquitectura, o sea, una forma de organizar un proyecto.
 //
@@ -576,8 +575,39 @@ import java.util.List;
 
 
 
+//Programacion Orientada a Objetos (POO) 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+//Es un paradigma de programacion que usa objetos para diseñar aplicaciones y programas de computadora👌
+//Herencia👌
+//Polimorfismo👌
+//Encapsulamiento👌
+//Abstraccion👌
 
+//Clases - objetos y metodo contructor🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+public class Clasedejava {
 
+    // Atributos de la clase
+    String nombre;
+    double estatura;
+    int edad;
+
+    // Método constructor
+    public Clasedejava(String nombre, double estatura, int edad) {
+        this.nombre = nombre; //Atributo
+        this.estatura = estatura; //Atributo
+        this.edad = edad; //Atributo
+    }
+
+    public static void main(String[] args) {                   //Aquí inicia el método main, que es el punto de entrada del programa👌
+                                                               //Todo lo que pongas aquí se ejecuta cuando corres el programa👌
+
+        // Crear un objeto usando el constructor - Llamado Persona👌
+        Clasedejava persona = new Clasedejava("Juan", 1.75, 20);
+
+        System.out.println("El nombres es: " + persona.nombre);
+        System.out.println("La estatura es: " + persona.estatura);
+        System.out.println("Su edad es: " + persona.edad);
+    }
+}
 
 
 
