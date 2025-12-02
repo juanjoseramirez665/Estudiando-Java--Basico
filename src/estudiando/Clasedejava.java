@@ -1,5 +1,5 @@
 package estudiando;
-
+//Declarar variables de diferentes tipos (int, String)
 //public class Clasedejava {
 //    public static void main(String[] args) {
 //        int numPackedApples = 1_000_000;
@@ -8,7 +8,8 @@ package estudiando;
 //    }
 //}
 
-
+        //Guardar información en ellas🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+         //Hacer operaciones simples (como sumar)👌
 // public class Clasedejava {
 //
 //        public static void main(String[] args) {
@@ -22,7 +23,7 @@ package estudiando;
 //        }
 // }
 
-
+        //Mostrar valores en consola con System.out.println🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
 //public class Clasedejava {
 //    public static void main(String[] args) {
 //
@@ -37,19 +38,15 @@ package estudiando;
 
 
 //DATOS🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-//public class Clasedejava {
-////    public static void main(String[] args) {
+
 ////byte edad = 20;
 ////short cantidad = 1000;
 ////int numero = 50000;
 ////long poblacion = 8000000000L;
-////
 ////float precio = 19.99F;
 ////double temperatura = 36.5;
-////
 ////char inicial = 'A';
 ////boolean activo = true;
-////
 ////String nombre = "Juan";
 ////Integer numeroGrande = 1200;
 ////Double decimalGrande = 45.67;
@@ -59,7 +56,7 @@ package estudiando;
 
 
 
-
+//Ejercicio👌
 //public class Clasedejava {
 //    public static void main(String[] args) {
 //           int telefono = 232412458;
@@ -418,10 +415,10 @@ package estudiando;
 //            System.out.println("El numero es: " +i);i++;
 //        }while( i > 0 );
 
-import javax.swing.text.View;
-import javax.swing.text.html.HTML;
-import java.util.ArrayList;
-import java.util.List;
+//import javax.swing.text.View;
+//import javax.swing.text.html.HTML;
+//import java.util.ArrayList;
+//import java.util.List;
 
 ////El ciclo de detiene ya que i no es mayor que 0
 //
@@ -509,6 +506,7 @@ import java.util.List;
 //        matriz[2][1] = 6;
 //
 //
+//
 //        for (int i = 0; i < matriz.length; i++) {
 //            for (int j = 0; j < matriz[i].length; j++) {
 //                System.out.print(matriz[i][j] + " ");
@@ -529,48 +527,48 @@ import java.util.List;
 //        Suma de diagonal
 //
 //        Imprimirla en forma de tabla
-public class Clasedejava {
-    public static void main(String[] args) {
-
-        int[][] matriz = new int[3][3];
-        int numero = 1;
-
-        // Llenar la matriz con valores del 1 al 9
-        for (int i = 0; i < 3; i++) {
-            for (int j = 0; j < 3; j++) {
-                matriz[i][j] = numero;
-                numero++;
-            }
-        }
-
-        // Imprimir en forma de tabla
-        System.out.println("Matriz 3x3:");
-        for (int i = 0; i < 3; i++) {
-            for (int j = 0; j < 3; j++) {
-                System.out.print(matriz[i][j] + " ");
-            }
-            System.out.println();
-        }
-
-        // Suma total de todos los elementos
-        int sumaTotal = 0;
-        for (int i = 0; i < 3; i++) {
-            for (int j = 0; j < 3; j++) {
-                sumaTotal += matriz[i][j];
-            }
-        }
-
-        // Suma de la primera fila (fila 0)
-        int sumaPrimeraFila = matriz[0][0] + matriz[0][1] + matriz[0][2];
-
-        // Suma de la diagonal principal
-        int sumaDiagonal = matriz[0][0] + matriz[1][1] + matriz[2][2];
-
-        System.out.println("\nSuma total: " + sumaTotal);
-        System.out.println("Suma primera fila: " + sumaPrimeraFila);
-        System.out.println("Suma diagonal: " + sumaDiagonal);
-    }
-}
+//public class Clasedejava {
+//    public static void main(String[] args) {
+//
+//        int[][] matriz = new int[9][9];
+//        int numero = 1;
+//
+//        // Llenar la matriz con valores del 1 al 9
+//        for (int i = 0; i < 9; i++) {
+//            for (int j = 0; j < 9; j++) {
+//                matriz[i][j] = numero;
+//                numero++;
+//            }
+//        }
+//
+//        // Imprimir en forma de tabla
+//        System.out.println("Matriz 3x3:");
+//        for (int i = 0; i < 9; i++) {
+//            for (int j = 0; j < 9; j++) {
+//                System.out.print(matriz[i][j] + " ");
+//            }
+//            System.out.println();
+//        }
+//
+//        // Suma total de todos los elementos
+//        int sumaTotal = 0;
+//        for (int i = 0; i < 9; i++) {
+//            for (int j = 0; j < 9; j++) {
+//                sumaTotal += matriz[i][j];
+//            }
+//        }
+//
+//        // Suma de la primera fila (fila 0)
+//        int sumaPrimeraFila = matriz[0][0] + matriz[0][1] + matriz[0][2];
+//
+//        // Suma de la diagonal principal
+//        int sumaDiagonal = matriz[0][0] + matriz[1][1] + matriz[2][2];
+//
+//        System.out.println("\nSuma total: " + sumaTotal);
+//        System.out.println("Suma primera fila: " + sumaPrimeraFila);
+//        System.out.println("Suma diagonal: " + sumaDiagonal);
+//    }
+//}
 
 //Arreglos dinamicos👌
     //Son aquellos arreglos que ofrecen flexibilidad mientras el programa se esta ejecutando👌
@@ -956,6 +954,8 @@ public class Clasedejava {
 //Si es una Vaca, hace "Muuu".
 //
 //El método es el mismo → el comportamiento cambia - eso es lo que hace el polimorfismo
+
+
 
 
 
