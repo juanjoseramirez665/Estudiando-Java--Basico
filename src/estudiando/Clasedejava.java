@@ -500,20 +500,78 @@ import java.util.List;
 //public class Clasedejava {
 //    public static void main(String[] args) {
 //
-//        int[][] matriz = new int[2][2];     //fila = i  -  columna = j
-//        matriz[0][0] = 45;
-//        matriz[0][1] = 4;
-//        matriz[1][0] = 78;
-//        matriz[1][1] = 65;
+//        int[][] matriz = new int[3][3];     //fila = i  -  columna = j
+//        matriz[0][0] = 1;
+//        matriz[0][1] = 2;
+//        matriz[1][0] = 3;
+//        matriz[1][1] = 4;
+//        matriz[2][0] = 5;
+//        matriz[2][1] = 6;
+//
 //
 //        for (int i = 0; i < matriz.length; i++) {
 //            for (int j = 0; j < matriz[i].length; j++) {
 //                System.out.print(matriz[i][j] + " ");
 //            }
-//            System.out.println();
+//            System.out.println(matriz[0][0] + " " + matriz[1][0] + " " + matriz[2][0]);
 //        }
 //    }
 //}
+
+//Matriz 3x3 👌
+//
+//        Llena la matriz con valores del 1 al 9 e imprime:
+//
+//        Suma total
+//
+//        Suma de primera fila
+//
+//        Suma de diagonal
+//
+//        Imprimirla en forma de tabla
+public class Clasedejava {
+    public static void main(String[] args) {
+
+        int[][] matriz = new int[3][3];
+        int numero = 1;
+
+        // Llenar la matriz con valores del 1 al 9
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                matriz[i][j] = numero;
+                numero++;
+            }
+        }
+
+        // Imprimir en forma de tabla
+        System.out.println("Matriz 3x3:");
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                System.out.print(matriz[i][j] + " ");
+            }
+            System.out.println();
+        }
+
+        // Suma total de todos los elementos
+        int sumaTotal = 0;
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                sumaTotal += matriz[i][j];
+            }
+        }
+
+        // Suma de la primera fila (fila 0)
+        int sumaPrimeraFila = matriz[0][0] + matriz[0][1] + matriz[0][2];
+
+        // Suma de la diagonal principal
+        int sumaDiagonal = matriz[0][0] + matriz[1][1] + matriz[2][2];
+
+        System.out.println("\nSuma total: " + sumaTotal);
+        System.out.println("Suma primera fila: " + sumaPrimeraFila);
+        System.out.println("Suma diagonal: " + sumaDiagonal);
+    }
+}
+
 //Arreglos dinamicos👌
     //Son aquellos arreglos que ofrecen flexibilidad mientras el programa se esta ejecutando👌
     //Permiten:
@@ -898,4 +956,7 @@ import java.util.List;
 //Si es una Vaca, hace "Muuu".
 //
 //El método es el mismo → el comportamiento cambia - eso es lo que hace el polimorfismo
+
+
+
 
